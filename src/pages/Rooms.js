@@ -1,9 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { Hero } from '../components/Hero';
 
-export const Rooms = () => {
-    return (
-        <div>
-           Rooms 
-        </div>
-    )
-}
+export const Rooms = () => (
+  <Hero hero="roomsHero" />
+);
